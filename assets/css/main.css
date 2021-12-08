@@ -17,6 +17,8 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --font: normal 16px/24px 'Inter', sans-serif;
 }
 
 * {
