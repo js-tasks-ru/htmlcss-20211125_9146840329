@@ -2,7 +2,7 @@
     max-width: 537px;
     border: 1px solid var(--grey-2);
     border-radius: 8px;
-    padding: 24px 40px 32px 24px;
+    padding: 24px 40px 24px 24px;
 }
 
 .skeleton__top  {
@@ -10,6 +10,7 @@
 }
 
 .skeleton__right{
+    flex: 1 1 300px;
     padding-top: 8px;
 }
 
@@ -31,8 +32,8 @@
 }
 
 .skeleton__text--top{
-    width: 172px;
+    width: 30%;
 }
 .skeleton__text--bottom{
-    width: 257px;
+    width: 60%;
 }
