@@ -1,0 +1,45 @@
+.histogram{
+    max-width: 354px;
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 16px 24px 24px 24px;
+}
+
+.histogram__top {
+    display: flex;
+    font: normal 16px/24px 'Inter', sans-serif;
+    justify-content: space-between;
+}
+
+.histogram__total {
+    width: 100px;
+    margin: 0;
+    margin-bottom: 40px;
+    color: var(--black);
+    opacity: .8;
+}
+.histogram__total--num {
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 1; /* почему не отменилось? */
+}
+
+.histogram__link {
+    padding-top: 3px;
+    display: inline-block;
+    text-decoration: none;
+    color: #4263EB;
+}
+
+.histogram__items {
+    display: flex;
+}
+.histogram__item {
+    width: 10px;
+    margin: 0 1px;
+    height: 50px;
+    background-color: #4263EB;
+    align-self: flex-end;
+}
