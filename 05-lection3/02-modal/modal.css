@@ -1,6 +1,4 @@
 body {
-  font: normal 16px/24px 'Inter', sans-serif;
-  color: var(--grey-4);
 }
 
 .button {
@@ -19,18 +17,34 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   z-index: 99;
-  overflow: hidden;
   background: rgba(196, 196, 196, 0.5);
+  display: none;
 }
 
 .modal__window {
+  position: relative;
   max-width: 430px;
-  min-height: 300px;
+  /* min-height: 300px; */
   padding: 30px 40px;
+  font: normal 16px/24px 'Inter', sans-serif;
+  color: var(--grey-4);
   background: var(--white);
+  border-radius: 8px;
+}
+
+.modal__title {
+  margin: 0;
+}
+
+.modal__close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
 }
