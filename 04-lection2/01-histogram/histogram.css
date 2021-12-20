@@ -12,15 +12,15 @@
 }
 
 .histogram__total {
-    width: 100px;
     margin: 0;
     margin-bottom: 40px;
     color: var(--black);
     opacity: .8;
 }
+
 .histogram__total--num {
-    display: inline-block;
-    padding-top: 15px;
+    display: block;
+    margin-top: 15px;
     font-size: 20px;
     line-height: 26px;
     opacity: 1; /* почему не отменилось? */
@@ -30,16 +30,16 @@
     padding-top: 3px;
     display: inline-block;
     text-decoration: none;
-    color: #4263EB;
+    color: var(--blue-1);
 }
 
 .histogram__items {
     display: flex;
+    height: 50px;
 }
 .histogram__item {
-    width: 10px;
-    margin: 0 1px;
-    height: 50px;
-    background-color: #4263EB;
+    flex: 1 1 9px;
+    margin-right: 1px;
+    background-color: var(--blue-1);
     align-self: flex-end;
 }
