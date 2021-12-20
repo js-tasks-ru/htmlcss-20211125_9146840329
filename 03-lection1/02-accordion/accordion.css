@@ -1,8 +1,8 @@
 .accordion__item{
     max-width: 564px;
     border: 1px solid var(--grey-3);
-    border-radius: 10px;
-    font: var(--font);
+    border-radius: 8px;
+    font: normal 16px/24px 'Inter', sans-serif;
     color: var(--grey-4);
     margin-bottom: 8px;
     padding: 24px 32px;
