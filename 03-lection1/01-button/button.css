@@ -12,35 +12,35 @@
     transition: opacity .3s ease-in-out, background-color .3s ease-in-out, border .3s ease-in-out;
 }
 
-.button__primary{
+.button_primary{
     background-color: var(--blue);
     color: var(--white);
 }
 
-.button__primary:hover{
+.button_primary:hover{
     background-color: #2342C0;
 }
 
-.button__secondary{
+.button_secondary{
     background-color: var(--purple);
     color: var(--white);
 }
 
-.button__secondary:hover{
+.button_secondary:hover{
     background-color: #5028C6;
 }
 
-.button__alternate{
+.button_alternate{
     background-color: var(--white);
     color: var(--grey-4);
     border: 1px solid var(--grey-3);
 }
 
-.button__alternate:hover{
+.button_alternate:hover{
     border: 1px solid var(--black);
 }
 
-.button__primary:disabled, .button__secondary:disabled, .button__alternate:disabled{
-    cursor: not-allowed;
+.button_primary:disabled, .button_secondary:disabled, .button_alternate:disabled{
+    pointer-events: none;
     opacity: .5;
 }
