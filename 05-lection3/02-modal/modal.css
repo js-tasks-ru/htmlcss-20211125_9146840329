@@ -1,13 +1,3 @@
-.button {
-  display: inline-block;
-  padding: 15px 50px;
-  text-decoration: none;
-  cursor: pointer;
-  color: var(--white);
-  border-radius: 8px;
-  background: #4263EB;
-}
-
 .modal {
   position: fixed;
   top: 0;
@@ -35,6 +25,18 @@
 
 .modal__title {
   margin: 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #334D6E;
+}
+
+.modal__text {
+  color: var(--grey-4);
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .modal__close {
