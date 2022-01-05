@@ -1,0 +1,47 @@
+.histogram {
+  max-width: 354px;
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
+  padding: 16px 24px 24px 24px;
+}
+
+.histogram__top {
+  display: flex;
+  font: normal 16px/24px 'Inter', sans-serif;
+  justify-content: space-between;
+}
+
+.histogram__total {
+  margin: 0;
+  margin-bottom: 40px;
+  color: var(--black);
+  opacity: .8;
+}
+
+.histogram__total--num {
+  display: block;
+  margin-top: 15px;
+  font-size: 20px;
+  line-height: 26px;
+  opacity: 1;
+  /* почему не отменилось? */
+}
+
+.histogram__link {
+  padding-top: 3px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--blue-1);
+}
+
+.histogram__items {
+  display: flex;
+  height: 50px;
+}
+
+.histogram__item {
+  flex: 1 1 9px;
+  margin-right: 1px;
+  background-color: var(--blue-1);
+  align-self: flex-end;
+}
