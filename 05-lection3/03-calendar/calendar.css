@@ -16,7 +16,7 @@
   color: var(--grey-blue);
 }
 
-.week {
+.calendar__week {
   font-family: Inter;
   font-size: 14px;
   line-height: 20px;
